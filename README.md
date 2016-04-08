@@ -5,14 +5,14 @@ Create a filter for any picture you like.
 ##Minimum requirements
 
 * User must be able to select the filter and changes the picture real time.
-* You must create 4 filters of your choice.
-* Must use auto-layout to fit devices.
+* You must create 4 individual filters of your choice.
 * You may NOT use any libraries for filters
 
 ##Technology
 
-* For iOS - Use Swift
-* For web - Javascript ( I recommend canvasJS )
+* If you apply as iOS developer - Use Swift
+* If you apply as web developer - Javascript
+* Please don't do both.
 
 ##Creative Spin
 
