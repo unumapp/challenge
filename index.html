@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>UNUM Code Challenge</title>
+  <meta name="description" content="UNUM Image Processing Code Challenge">
+  <meta name="author" content="Namit Juneja">
+
+ <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300:n,b,i,bi|&amp;subset=latin" data-reactid=".0.0.$gf_0">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="http://www.html5rocks.com/static/js/modernizr.custom.82437.js"></script>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="section get-help">
+
+  <div class="container">
+        <div class="section-header">
+              <img alt="" src="https://static.wixstatic.com/media/7a6476_7c068de286dc4f6681943a770f99ef5e.png/v1/fill/w_279,h_60,al_c,usm_0.66_1.00_0.01/7a6476_7c068de286dc4f6681943a770f99ef5e.png" style="width: 279px; height: 60px; object-fit: cover;" >
+              <p style="font-family:open sans condensed,sans-serif; font-size: 14px;     letter-spacing: 0.1em;"><b>Photo Planner for Instagram</b></p>
+        </div>
+
+        <p style="font-size: 30px" class="section-heading">UNUM Image Processing Code Challenge</p>
+
+        <div class="section-description" id="list">
+              <canvas style="display: inline !important;" id="grayscale" class="thumb"></canvas>
+              <p style="float: right; color: #C0C0C0;font-size: 10px"><i id="filter_name">no image</i></p>
+
+              <div class="file-upload"><label class="button button-primary">
+              <input type="file" style="display: none;" id="files" name="files[]" multiple />Choose Image</label></div>
+              <p>
+                <input type="checkbox" id="random" checked="true">Try Random filters
+              </p>
+              <div class="file-upload">
+                    <div class="row">
+                            <div class="twelve columns value">
+                              <button onclick="orign()">Original Image</button>
+                            </div>
+                    </div>
+        </div>
+
+
+        <div class="row">
+                <div class="one-third column value">
+                  <button onclick="grayscale()">Grayscale</button>
+                </div>
+                <div class="one-third column value">
+                  <button onclick="negative()">Negative</button>
+                </div>
+                <div class="one-third column value">
+                  <button onclick="saturate()">Saturate</button>
+                </div>
+        </div>
+
+        <div class="row">
+                <div class="one-third column value">
+                  <button onclick="sharpen()">Sharpen</button>
+                </div>
+                <div class="one-third column value">
+                  <button onclick="blurC()">Blur</button>
+                </div>
+                <div class="one-third column value">
+                  <button onclick="sepia()">Sepia</button>
+                </div>
+        </div>
+
+               
+          </div>
+
+
+  </div>
+  <p> Made by <a target="_blank" href="http://namitjuneja.com">Namit Juneja</a></p>
+  </div>
+ 
+  <!-- Filters JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/filters.js"></script>
+
+
+
+</body>
+</html>
