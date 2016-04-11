@@ -1,6 +1,6 @@
 #Image Processing Code Challenge
 
-[Demo](https://namitjuneja.com/challenge "Demo")
+[Demo](https://namitjuneja.github.io/challenge "Demo")
 
 ## Questions?
 Feel free to contact me!
