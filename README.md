@@ -6,4 +6,4 @@
 Feel free to contact me!
 
 ### Namit Juneja
-* <hello@namitjuneja.com>
+* <juneja.namit@gmail.com>
